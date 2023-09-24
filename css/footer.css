@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: rgb(32, 31, 36);
+}
+
+.footer-content{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 64px;
+}
+
+.footer-top{
+    padding-top: 64px;
+}
+
+.newsletter{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.input-newsletter-container{
+    
+    width: 400px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+input[type="email"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: gray;
+}
+
+
+.newsletter-button{
+    border: none;
+    color: black;
+    font-size: 16px;
+    background-color: #00ff99;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 180px;
+    transition: 0.25s;
+}
+
+.newsletter-button:hover{
+    background-color: white;
+}
+
+.newsletter-button:active{
+    background-color: rgb(129, 129, 129);
+}
+
+.footer-bottom{
+    display: flex;
+    padding-top: 64px;
+
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+.copyright-privacy{
+    font-size: 16;
+    color: white;
+    display: block;
+    background-color: rgb(19, 19, 19);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 32px;
+}
+
+.copy-pri{
+    padding-top: 32px;
+}
+
+@media all and (max-width: 800px){
+    
+    .newsletter-button{
+        border: none;
+        color: black;
+        font-size: 16px;
+        margin-top: 16px;
+        background-color: #00ff99;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        width: 400px;
+        transition: 0.25s;
+    }
+
+}
